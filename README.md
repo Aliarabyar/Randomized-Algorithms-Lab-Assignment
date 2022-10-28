@@ -1,7 +1,7 @@
 **An Exploratory Assignment on Minimum Spanning Trees Mitzenmatcher-Upfal book - Assignment 10.6.**
 
  
-The goal is to define a function $f(n)$ to calculate the total weight of the $\operatorname{MST}^1$ of a complete graph with $\left(\begin{array}{l}n2\end{array}\right)$ edges which weigh of each edge has been chosen uniformly at random on $[0,1]$. I used $C$ to implement Kruskal's algorithm to find a minimum spanning tree for a weighted graph. To implement the random graph generator, I used C's built-in rand() function and seeded it with a value of my machine's local time.
+The goal is to define a function $f(n)$ to calculate the total weight of the $\operatorname{MST}$ of a complete graph with $\left(\begin{array}{l}n2\end{array}\right)$ edges which weigh of each edge has been chosen uniformly at random on $[0,1]$. I used $C$ to implement Kruskal's algorithm to find a minimum spanning tree for a weighted graph. To implement the random graph generator, I used C's built-in rand() function and seeded it with a value of my machine's local time.
 Choice of MST Algorithm
 There are two choices for choosing an algorithm for the graphs that are weighted, connected, and undirected: Kruskal's algorithm and Prim's algorithm.
 
